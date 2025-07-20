@@ -1,0 +1,21 @@
+import java.util.*;
+/**
+ *
+ * @author subha
+ */
+public class JavaApplication2 {
+
+  public static void main(String [] args){
+    Scanner sc= new Scanner (System.in);
+    int Number1= sc.nextInt();
+    int Number2= sc.nextInt();
+    int result=0;
+    for(int i=Number1; i<=Number2; i++){
+        result+=i;
+    }
+      System.out.println(result);
+   
+ }
+} 
+
+
