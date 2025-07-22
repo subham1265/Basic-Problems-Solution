@@ -1,0 +1,24 @@
+import java.util.*;
+/**
+ *
+ * @author subha
+ */
+public class JavaApplication2 {
+
+  public static void main(String [] args){
+      Scanner sc= new Scanner(System.in);
+          String s =sc.next();
+          System.out.println("Enter the String:");
+    StringBuilder sb= new StringBuilder(s);
+
+    String reversed= sb.reverse().toString();
+    
+   if(s.equals(reversed)){
+       System.out.println("This string is a Palindrome");
+   }else {
+       System.out.println("This String is not a palindrome");
+   }
+    
+  }
+
+}
